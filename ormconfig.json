@@ -1,0 +1,11 @@
+{
+    "type": "mysql",
+    "host": "redrush.cavgqbi0j9ms.us-east-2.rds.amazonaws.com",
+    "port": 3306,
+    "username": "rushtowers",
+    "password": "RY7LC92vFsegJDPgmXMy",
+    "database": "redrushdb",
+    "entities": ["dist/**/**.entity{.ts,.js}"],
+    "synchronize": true,
+    "logging": true
+  }
